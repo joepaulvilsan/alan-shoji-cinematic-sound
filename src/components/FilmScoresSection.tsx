@@ -1,7 +1,7 @@
-import moviePoster1 from "@/assets/movie-poster-1.jpg";
-import moviePoster2 from "@/assets/movie-poster-2.jpg";
-import moviePoster3 from "@/assets/movie-poster-3.jpg";
-import moviePoster4 from "@/assets/movie-poster-4.jpg";
+import moviePoster1 from "@/assets/movie-poster-1.jpeg";
+import moviePoster2 from "@/assets/movie-poster-2.jpeg";
+import moviePoster3 from "@/assets/movie-poster-3.jpeg";
+import moviePoster4 from "@/assets/movie-poster-4.jpeg";
 
 const posters = [moviePoster1, moviePoster2, moviePoster3, moviePoster4];
 

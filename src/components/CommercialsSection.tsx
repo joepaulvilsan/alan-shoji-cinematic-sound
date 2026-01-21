@@ -28,7 +28,7 @@ const CommercialsSection = () => {
             <YouTubeLinkCard
               thumbnail={commercial3}
               title="Luxury Watch Brand Campaign – Original Score"
-              url="https://youtube.com"
+              url="https://www.youtube.com/watch?v=sovs9culguM"
             />
           </div>
         </div>
