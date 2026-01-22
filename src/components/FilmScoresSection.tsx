@@ -1,5 +1,5 @@
 import moviePoster1 from "@/assets/movie-poster-1.jpeg";
-import moviePoster2 from "@/assets/movie-poster-2.jpeg";
+import moviePoster2 from "@/assets/movie-poster-2.jpg";
 import moviePoster3 from "@/assets/movie-poster-3.jpeg";
 import moviePoster4 from "@/assets/movie-poster-4.jpeg";
 import moviePoster5 from "@/assets/movie-poster-5.jpeg";
