@@ -8,13 +8,16 @@ const posters = [moviePoster1, moviePoster2, moviePoster3, moviePoster4, moviePo
 
 const FilmScoresSection = () => {
   return (
-    <section className="pt-0 pb-16 sm:pb-24 md:pb-32 lg:pb-48 xl:pb-64 px-4 sm:px-6 lg:px-8">
+    // -mt-20 pulls this section UP into the solid black zone of the Hero
+    <section className="relative z-20 -mt-16 sm:-mt-20 pt-0 pb-12 sm:pb-16 md:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-12 sm:mb-16 md:mb-24 tracking-wide opacity-0 fade-in-up">
+        
+        {/* This title now sits on PURE BLACK because of the Hero gradient fix */}
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-6 sm:mb-8 tracking-wide opacity-0 fade-in-up text-white">
           FILM SCORES
         </h2>
         
-        {/* Desktop: 3 on top, 2 centered below | Mobile: 2-column grid */}
+        {/* Desktop Grid */}
         <div className="hidden md:block">
           {/* Top row: 3 posters */}
           <div className="grid grid-cols-3 gap-6 lg:gap-8 mb-6 lg:mb-8">
@@ -49,7 +52,7 @@ const FilmScoresSection = () => {
           </div>
         </div>
         
-        {/* Mobile: 2-column grid */}
+        {/* Mobile Grid */}
         <div className="md:hidden grid grid-cols-2 gap-3 sm:gap-4">
           {posters.map((poster, index) => (
             <div

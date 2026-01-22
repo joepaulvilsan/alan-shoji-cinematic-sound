@@ -2,18 +2,20 @@ import studioRoom from "@/assets/studio-room.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[85vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="relative h-[80vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${studioRoom})` }}
       />
       
-      {/* 40% Black Overlay */}
+      {/* 40% Black Overlay - Keeps the room visible but darker */}
       <div className="absolute inset-0 bg-black/40" />
       
-      {/* Bottom Gradient - transparent to solid black */}
-      <div className="absolute inset-x-0 bottom-0 h-[20%] bg-gradient-to-t from-black to-transparent" />
+      {/* THE DEEP FADE FIX */}
+      {/* h-[60%] = Taller shadow */}
+      {/* from-black from-30% = The bottom 30% is SOLID BLACK. No transparency. */}
+      <div className="absolute inset-x-0 bottom-0 h-[60%] bg-gradient-to-t from-black from-30% via-black/80 to-transparent" />
       
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center opacity-0 fade-in-up">
