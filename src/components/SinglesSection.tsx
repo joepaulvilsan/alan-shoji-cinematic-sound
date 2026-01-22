@@ -15,12 +15,12 @@ const singles = [
 
 const SinglesSection = () => {
   return (
-    <section className="section-spacing px-6">
+    <section className="section-spacing px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-center mb-24 tracking-wide opacity-0 fade-in-up">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-12 sm:mb-16 md:mb-24 tracking-wide opacity-0 fade-in-up">
           SINGLES
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
           {singles.map((single, index) => (
             <div key={index} className={`opacity-0 fade-in-up stagger-${index + 1}`}>
               <SpotifyCard

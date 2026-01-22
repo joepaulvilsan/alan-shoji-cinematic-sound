@@ -6,14 +6,14 @@ import commercial3 from "@/assets/commercial-3.jpg";
 
 const CommercialsSection = () => {
   return (
-    <section className="section-spacing px-6">
+    <section className="section-spacing px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-center mb-24 tracking-wide opacity-0 fade-in-up">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-12 sm:mb-16 md:mb-24 tracking-wide opacity-0 fade-in-up">
           COMMERCIALS
         </h2>
         
         {/* Row 1: Featured Work - 2 Large Video Players */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-4 sm:mb-6 md:mb-8">
           <div className="opacity-0 fade-in-up stagger-1">
             <VideoPlayer thumbnail={commercial1} alt="Automotive commercial" large />
           </div>
@@ -23,7 +23,7 @@ const CommercialsSection = () => {
         </div>
         
         {/* Row 2: Archive/Links - 3-column grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           <div className="opacity-0 fade-in-up stagger-3">
             <YouTubeLinkCard
               thumbnail={commercial3}

@@ -78,7 +78,7 @@
   }
 
   .section-spacing {
-    @apply py-32 md:py-48 lg:py-64;
+    @apply py-16 sm:py-24 md:py-32 lg:py-48 xl:py-64;
   }
 
   .fade-in {
