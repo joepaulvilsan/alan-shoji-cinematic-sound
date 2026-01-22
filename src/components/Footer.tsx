@@ -14,7 +14,7 @@ const Footer = () => {
         
         <div className="flex items-center justify-center gap-6 sm:gap-8 mb-12 sm:mb-14 md:mb-16">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/alan_shoji_/?hl=en"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors duration-300"
@@ -22,15 +22,7 @@ const Footer = () => {
           >
             <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors duration-300"
-            aria-label="LinkedIn"
-          >
-            <Linkedin className="w-5 h-5 sm:w-6 sm:h-6" />
-          </a>
+         
           <a
             href="https://youtube.com"
             target="_blank"
