@@ -21,7 +21,7 @@ const HeroSection = () => {
           ALAN SHOJI
         </h1>
         <p className="font-sans text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase text-white/80 mb-8 sm:mb-10 md:mb-12">
-          MUSIC PRODUCER & COMPOSER
+          MUSIC PRODUCER, COMPOSER & MIX ENGINEER
         </p>
         <p className="font-sans text-xs sm:text-sm md:text-base leading-relaxed text-gray-300 max-w-xl mx-auto px-2 sm:px-0 opacity-0 fade-in-up stagger-2">
           Music producer & composer specializing in film, ads, and electronic scoring. 
