@@ -4,6 +4,9 @@ import album2 from "@/assets/album-2.png";
 import album3 from "@/assets/album-3.png";
 import album4 from "@/assets/album-4.png";
 import album5 from "@/assets/album-5.png";
+import album6 from "@/assets/album-6.png";
+import album7 from "@/assets/album-7.png";
+
 
 const singles = [
   { albumArt: album1, title: "Olivangi", url: "https://open.spotify.com/album/2gVmHw7FoOAx7FvPAyAhqe?si=DciWYTmbTnSFcX5dXunSoQ&nd=1&dlsi=108b74c980084796" },
@@ -11,6 +14,8 @@ const singles = [
   { albumArt: album3, title: "Malayali Swag ", url: "https://open.spotify.com/track/6wQfZYUq0G7XMY1VGWbRcR?si=4237bb8682414f4a&nd=1&dlsi=9c01e7fd23b24d60" },
   { albumArt: album4, title: "Padhavi", url: "https://open.spotify.com/album/2NqsltyIAQqeEwPSdUY1lT?si=V5M3aaSETVWkIApflLWtmg&nd=1&dlsi=f34d51024f4c4bc7" },
   { albumArt: album5, title: "Theera Kadhalin", url: "https://open.spotify.com/track/3qDaxIJwdW6FN7g7RYH0Ls?si=ec4f1454043b4a32&nd=1&dlsi=64f3133325ed4852" },
+  { albumArt: album6, title: "Pogathee", url: "https://open.spotify.com/track/7HH2DZLU3V3EuM3nh80LrS?si=8hq7UXR1SwCDlgM88xmNGg&nd=1&dlsi=4c67ea4128d44a58" },
+  { albumArt: album7, title: "kadhal_jilebi", url: "https://open.spotify.com/track/6lQblAOwWzWlctaccOrZmB?si=QDp5lx-pRLayC5Xr5EZztw&nd=1&dlsi=a059ad3eceb94073" },
 ];
 
 const SinglesSection = () => {
