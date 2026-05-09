@@ -4,7 +4,7 @@ import moviePoster3 from "@/assets/movie-poster-3.jpeg";
 import moviePoster4 from "@/assets/movie-poster-4.jpeg";
 import moviePoster5 from "@/assets/movie-poster-5.jpeg";
 
-const posters = [moviePoster1, moviePoster2, moviePoster3, moviePoster4, moviePoster5];
+const posters = [ moviePoster2, moviePoster3, moviePoster4, moviePoster5];
 
 const FilmScoresSection = () => {
   return (
